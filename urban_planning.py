@@ -12,6 +12,12 @@ non_vehicles = {
     "Animal": ["Animal"],
     "Robot": ["Autonomous delivery robot", 'Street-cleaning robot']
 }
+
+ped_and_animals = {
+    "Pedestrian": ["Pedestrian", "Pedestrian", "Pedestrian", "Pedestrian"],
+    "Animal": ["Animal"], 
+}
+
 vehicle_moral_factors = ["Following speed limit", "Speeding", "Wrong lane", "Heavy traffic"]
 public_moral_factors = ['Running Late', 'Running on-time']
 pedestrian_moral_factors = ['Elderly person', 'Child', 'Family', 'Person using wheelchair or crutches', 'Construction worker', 'Criminal fleeing scene']
