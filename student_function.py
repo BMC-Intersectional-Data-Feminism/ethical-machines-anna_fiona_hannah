@@ -29,5 +29,5 @@ def ped_and_animal(option1, option2):
             return selected, option1
         
 # Run the activity using the example algorithm
-print("\n🔹 Running Example Algorithm: Always Pick Non-Vehicle 🔹")
+print("\n🔹 Running Example Algorithm: Always Pick Pedestrian and Animals🔹")
 urban_planning.run_activity(num_scenarios=25, decision_function = ped_and_animal)
